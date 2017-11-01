@@ -4,4 +4,6 @@
 We are working on this project currently.
 
 Please go through Project proposal.pdf for a clear idea of what we are doing here.
-We use sentiment analysis on social media
+
+
+Thanks for the visit. :)
