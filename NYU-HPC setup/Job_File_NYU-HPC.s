@@ -12,7 +12,7 @@
 #SBATCH --output=slurm_%j.out
 
 module purge
-module load python/intel/3.6.3
+module load python3/intel/3.6.3
 #module load numpy/intel/1.13.1
 #module load cuda/8.0.44
 #module load tensorflow/python2.7/1.0.1
