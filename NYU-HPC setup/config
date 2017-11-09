@@ -1,0 +1,22 @@
+# first we create the tunnel, with instructions to pass incoming
+# packets on ports 8024, 8025 and 8026 through it and to specific
+# locations
+Host hpcgwtunnel
+   HostName gw.hpc.nyu.edu
+   ForwardX11 no
+   LocalForward 8025 dumbo.hpc.nyu.edu:22
+   LocalForward 8026 prince.hpc.nyu.edu:22
+   User hp1047 
+# next we create an alias for incoming packets on the port. The
+# alias corresponds to where the tunnel forwards these packets
+Host dumbo
+  HostName localhost
+  Port 8025
+  ForwardX11 yes
+  User hp1047
+
+Host prince
+  HostName localhost
+  Port 8026
+  ForwardX11 yes
+  User hp1047

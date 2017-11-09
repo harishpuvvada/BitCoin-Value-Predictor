@@ -1,0 +1,19 @@
+
+For example to use Python 3.6.3, I’m working in the folder /home/wang/pyenv
+
+(1) To create a new folder
+
+ mkdir py3.6.3
+
+(2) module load python3/intel/3.6.3
+
+(3) virtualenv --system-site-packages py3.6.3
+
+(4) source py3.6.3/bin/activate
+
+(5) pip install tweepy
+(6) pip install -U textblob
+
+Now every time to activate this env
+
+source /home/wang/pyenv/py3.6.3/bin/activate
