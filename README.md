@@ -3,7 +3,7 @@
 
 
 We are working on this project currently.
-Please refer to Project Proposal.pdf for the details
+Please refer to Project Proposal.pdf for the details.
 Thanks for the visit. :)
 Your feedback is welcome.
 
