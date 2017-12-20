@@ -18,9 +18,8 @@ The project attempts to predict the future value of Bitcoins by identifying the 
 3. Web Scraping to get data from News articles.
 
 ## References:
- J. Bollen and H. Mao. Twitter mood as a stock market predictor. IEEE Computer, 44(10):91–94.
- http://dataconomy.com/2014/07/bitcoin-big-data-can-predict-future-value-virtual-currency
- Mittall et Goel. Stock Prediction Using Twitter Sentiment Analysis
- 
- 
-
+* J. Bollen and H. Mao. Twitter mood as a stock market predictor. IEEE Computer, 44(10):91–94.
+* http://dataconomy.com/2014/07/bitcoin-big-data-can-predict-future-value-virtual-currency
+* Mittall et Goel. Stock Prediction Using Twitter Sentiment Analysis
+* http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.375.4517&rep=rep1&type=pdf
+* https://arxiv.org/pdf/1610.09225.pdf
