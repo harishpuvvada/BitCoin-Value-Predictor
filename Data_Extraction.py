@@ -39,7 +39,7 @@ while True:
             #print("------wrote a tweet-----")
     except tweepy.TweepError:
         #print("---------------------In sleep In sleep In sleep In sleep----------------------------")
-        time.sleep(150)
+        time.sleep(600)
         continue
     except StopIteration:
         #print("---------------------Something is wrong----------------------------")
