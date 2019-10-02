@@ -17,6 +17,9 @@ The project attempts to predict the future value of Bitcoins by identifying the 
 2. LinkedIn Api to get the corpus on blogs.
 3. Web Scraping to get data from News articles.
 
+## Dropbox link with data:
+https://www.dropbox.com/s/oy5zcf4aiorr0dr/Archive.zip?dl=0
+
 ## References:
 * J. Bollen and H. Mao. Twitter mood as a stock market predictor. IEEE Computer, 44(10):91–94.
 * http://dataconomy.com/2014/07/bitcoin-big-data-can-predict-future-value-virtual-currency
