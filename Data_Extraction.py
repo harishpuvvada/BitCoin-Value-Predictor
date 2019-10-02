@@ -26,7 +26,7 @@ csvFile = open('result.csv', 'w')
 
 #Use csv writer
 csvWriter = csv.writer(csvFile)
-#AND (surge OR crash OR plunge OR high OR low OR future OR amazing OR good OR bad OR record)
+#Query(q) ---> AND (surge OR crash OR plunge OR high OR low OR future OR amazing OR good OR bad OR record)
 data = tweepy.Cursor(api.search,q = "bitcoin",since = "2017-11-06",until = "2017-11-07",lang = "en").items()
 #most recent data is fetched first
 while True:
@@ -39,7 +39,7 @@ while True:
             #print("------wrote a tweet-----")
     except tweepy.TweepError:
         #print("---------------------In sleep In sleep In sleep In sleep----------------------------")
-        time.sleep(150)
+        time.sleep(600)
         continue
     except StopIteration:
         #print("---------------------Something is wrong----------------------------")
